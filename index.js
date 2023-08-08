@@ -11,7 +11,7 @@ http.createServer(function(req,res) {
 
      case "/about":
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('About page Page');
+    res.end('About Page');
     break;
 
     default:
